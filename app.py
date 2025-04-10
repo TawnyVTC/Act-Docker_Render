@@ -48,7 +48,7 @@ elif selected == "Diagrama de Barras y Proporción":
     df_grouped = df.groupby("Tipo_Residuo")[variable_numerica].sum().reset_index()
 
     # Gráfico de barras interactivo
-    st.subheader("Diagrama de Barras Interactivo")
+    st.subheader("Diagrama de Barras")
     fig_bar = px.bar(
         df_grouped,
         x="Tipo_Residuo",
@@ -62,7 +62,7 @@ elif selected == "Diagrama de Barras y Proporción":
     st.plotly_chart(fig_bar)
 
     # Gráfico de torta interactivo
-    st.subheader("Distribución Proporcional Interactiva (Gráfico de Torta)")
+    st.subheader("Distribución Proporcional por Tipo de Residuo")
     fig_pie = px.pie(
         df_grouped,
         names="Tipo_Residuo",
@@ -108,7 +108,7 @@ elif selected == "Histograma":
 
 # Página 4: Mapa
 elif selected == "Mapa":
-    st.title("Mapa Interactivo de Recolección de Residuos")
+    st.title("Mapa de Recolección de Residuos")
 
     tipo_residuo = st.selectbox("Selecciona el tipo de residuo a visualizar en el mapa:", 
                                  df["Tipo_Residuo"].unique())
