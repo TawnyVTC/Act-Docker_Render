@@ -17,14 +17,14 @@ df = load_data()
 with st.sidebar:
     selected = option_menu(
         "Menú Principal",
-        ["🏠 Contexto", "📊 Diagrama de Barras y Proporción", "📈 Histograma", "🗺️ Mapa"],
+        ["Contexto", "Diagrama de Barras y Proporción", "Histograma", "Mapa"],
         icons=["house", "bar-chart", "bar-chart-line", "map"],
         menu_icon="cast",
         default_index=0,
     )
 
 # Página 1: Contexto
-if selected == "🏠 Contexto":
+if selected == "Contexto":
     st.title("Contexto del Proyecto")
     st.markdown("""
     Este dashboard muestra el análisis de residuos recolectados por departamento en Colombia.
@@ -36,7 +36,7 @@ if selected == "🏠 Contexto":
     """)
 
 # Página 2: Análisis de variables
-elif selected == "📊 Diagrama de Barras y Proporción":
+elif selected == "Diagrama de Barras y Proporción":
     st.title("Análisis por Tipo de Residuo")
 
     # Selector de variable numérica
@@ -74,7 +74,7 @@ elif selected == "📊 Diagrama de Barras y Proporción":
 
 
 # Página 3: Histograma
-elif selected == "📈 Histograma":
+elif selected == "Histograma":
     st.title("Distribución de Residuos")
 
     # Seleccionar la variable
@@ -113,7 +113,7 @@ elif selected == "📈 Histograma":
 
 
 # Página 4: Mapa
-elif selected == "🗺️ Mapa":
+elif selected == "Mapa":
     st.title("Mapa Interactivo de Recolección de Residuos")
 
     tipo_residuo = st.selectbox("Selecciona el tipo de residuo a visualizar en el mapa:", 
