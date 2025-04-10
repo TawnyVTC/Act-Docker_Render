@@ -1,0 +1,7 @@
+streamlit==1.32.0
+pandas
+matplotlib
+folium
+streamlit-folium
+seaborn
+streamlit_option_menu

@@ -1,0 +1,201 @@
+ID,Departamento,Latitud,Longitud,Tipo_Residuo,Cantidad_Kg,Frecuencia_Semanal
+1,Atlántico,10.9685,-74.7813,Vidrio,50.25,5
+2,Magdalena,10.591,-74.1869,Orgánico,19.4,3
+3,Valle del Cauca,3.4516,-76.5319,Vidrio,6.74,5
+4,Bogotá D.C.,4.711,-74.0721,Plástico,32.04,1
+5,Atlántico,10.9685,-74.7813,Vidrio,80.79,1
+6,Bolívar,10.3997,-75.5144,Tecnológico,42.53,5
+7,Valle del Cauca,3.4516,-76.5319,Plástico,25.97,6
+8,Nariño,1.2136,-77.2811,Papel,3.05,1
+9,Santander,7.1254,-73.1198,Orgánico,50.11,3
+10,Bogotá D.C.,4.711,-74.0721,Tecnológico,68.8,2
+11,Nariño,1.2136,-77.2811,Tecnológico,19.84,5
+12,Bogotá D.C.,4.711,-74.0721,Orgánico,54.18,1
+13,Cundinamarca,4.6814,-74.1371,Vidrio,42.65,6
+14,Cundinamarca,4.6814,-74.1371,Orgánico,70.69,6
+15,Atlántico,10.9685,-74.7813,Orgánico,86.2,6
+16,Cundinamarca,4.6814,-74.1371,Vidrio,31.4,2
+17,Santander,7.1254,-73.1198,Papel,90.57,3
+18,Valle del Cauca,3.4516,-76.5319,Orgánico,70.99,5
+19,Antioquia,6.2442,-75.5812,Vidrio,4.68,1
+20,Bolívar,10.3997,-75.5144,Tecnológico,79.33,2
+21,Nariño,1.2136,-77.2811,Orgánico,49.97,3
+22,Nariño,1.2136,-77.2811,Orgánico,94.6,4
+23,Santander,7.1254,-73.1198,Papel,33.04,1
+24,Cundinamarca,4.6814,-74.1371,Papel,59.53,6
+25,Bolívar,10.3997,-75.5144,Tecnológico,95.66,6
+26,Cundinamarca,4.6814,-74.1371,Papel,27.84,3
+27,Nariño,1.2136,-77.2811,Tecnológico,47.72,2
+28,Santander,7.1254,-73.1198,Orgánico,75.5,6
+29,Magdalena,10.591,-74.1869,Vidrio,69.42,5
+30,Córdoba,8.749,-75.8814,Papel,84.03,2
+31,Antioquia,6.2442,-75.5812,Tecnológico,52.46,6
+32,Atlántico,10.9685,-74.7813,Papel,32.57,5
+33,Bolívar,10.3997,-75.5144,Papel,53.97,3
+34,Cundinamarca,4.6814,-74.1371,Plástico,35.65,3
+35,Nariño,1.2136,-77.2811,Orgánico,18.47,2
+36,Atlántico,10.9685,-74.7813,Papel,55.94,2
+37,Nariño,1.2136,-77.2811,Vidrio,5.79,5
+38,Atlántico,10.9685,-74.7813,Plástico,4.62,1
+39,Valle del Cauca,3.4516,-76.5319,Tecnológico,7.39,2
+40,Córdoba,8.749,-75.8814,Tecnológico,67.59,6
+41,Antioquia,6.2442,-75.5812,Vidrio,41.29,1
+42,Valle del Cauca,3.4516,-76.5319,Vidrio,49.92,1
+43,Atlántico,10.9685,-74.7813,Orgánico,35.0,1
+44,Magdalena,10.591,-74.1869,Vidrio,26.11,3
+45,Valle del Cauca,3.4516,-76.5319,Tecnológico,36.47,3
+46,Nariño,1.2136,-77.2811,Orgánico,20.14,1
+47,Santander,7.1254,-73.1198,Vidrio,68.2,1
+48,Cundinamarca,4.6814,-74.1371,Vidrio,11.07,3
+49,Bogotá D.C.,4.711,-74.0721,Tecnológico,52.17,5
+50,Valle del Cauca,3.4516,-76.5319,Orgánico,48.21,6
+51,Bogotá D.C.,4.711,-74.0721,Plástico,30.89,4
+52,Córdoba,8.749,-75.8814,Plástico,11.13,2
+53,Bolívar,10.3997,-75.5144,Orgánico,70.63,1
+54,Santander,7.1254,-73.1198,Vidrio,57.38,3
+55,Bolívar,10.3997,-75.5144,Vidrio,81.14,1
+56,Cundinamarca,4.6814,-74.1371,Orgánico,24.32,1
+57,Bolívar,10.3997,-75.5144,Plástico,79.36,1
+58,Atlántico,10.9685,-74.7813,Papel,29.9,1
+59,Santander,7.1254,-73.1198,Tecnológico,12.15,5
+60,Bogotá D.C.,4.711,-74.0721,Orgánico,14.36,2
+61,Bolívar,10.3997,-75.5144,Papel,22.88,2
+62,Nariño,1.2136,-77.2811,Tecnológico,68.56,3
+63,Santander,7.1254,-73.1198,Papel,25.15,5
+64,Bogotá D.C.,4.711,-74.0721,Papel,60.78,5
+65,Valle del Cauca,3.4516,-76.5319,Tecnológico,26.4,2
+66,Córdoba,8.749,-75.8814,Papel,37.16,3
+67,Córdoba,8.749,-75.8814,Plástico,89.08,5
+68,Nariño,1.2136,-77.2811,Orgánico,50.54,3
+69,Magdalena,10.591,-74.1869,Plástico,60.42,2
+70,Atlántico,10.9685,-74.7813,Plástico,19.74,1
+71,Santander,7.1254,-73.1198,Tecnológico,14.02,6
+72,Magdalena,10.591,-74.1869,Tecnológico,41.9,6
+73,Antioquia,6.2442,-75.5812,Tecnológico,85.68,6
+74,Valle del Cauca,3.4516,-76.5319,Papel,24.85,5
+75,Atlántico,10.9685,-74.7813,Papel,62.55,3
+76,Antioquia,6.2442,-75.5812,Orgánico,87.34,1
+77,Córdoba,8.749,-75.8814,Papel,93.51,2
+78,Cundinamarca,4.6814,-74.1371,Orgánico,99.39,4
+79,Atlántico,10.9685,-74.7813,Plástico,76.53,6
+80,Bolívar,10.3997,-75.5144,Orgánico,8.43,5
+81,Santander,7.1254,-73.1198,Orgánico,87.27,5
+82,Cundinamarca,4.6814,-74.1371,Tecnológico,88.68,3
+83,Antioquia,6.2442,-75.5812,Papel,56.17,2
+84,Valle del Cauca,3.4516,-76.5319,Vidrio,7.68,6
+85,Atlántico,10.9685,-74.7813,Vidrio,48.19,2
+86,Cundinamarca,4.6814,-74.1371,Tecnológico,21.86,5
+87,Santander,7.1254,-73.1198,Plástico,44.77,5
+88,Bogotá D.C.,4.711,-74.0721,Plástico,72.69,6
+89,Bolívar,10.3997,-75.5144,Plástico,67.09,6
+90,Córdoba,8.749,-75.8814,Orgánico,78.22,3
+91,Bogotá D.C.,4.711,-74.0721,Papel,48.18,3
+92,Magdalena,10.591,-74.1869,Plástico,51.57,4
+93,Magdalena,10.591,-74.1869,Vidrio,93.63,1
+94,Santander,7.1254,-73.1198,Orgánico,63.49,3
+95,Cundinamarca,4.6814,-74.1371,Plástico,75.01,1
+96,Bolívar,10.3997,-75.5144,Plástico,66.79,5
+97,Valle del Cauca,3.4516,-76.5319,Papel,64.41,4
+98,Bogotá D.C.,4.711,-74.0721,Papel,91.44,4
+99,Santander,7.1254,-73.1198,Orgánico,36.29,4
+100,Bolívar,10.3997,-75.5144,Vidrio,43.34,2
+101,Antioquia,6.2442,-75.5812,Tecnológico,38.6,6
+102,Atlántico,10.9685,-74.7813,Vidrio,76.75,6
+103,Nariño,1.2136,-77.2811,Papel,86.97,5
+104,Bogotá D.C.,4.711,-74.0721,Papel,36.39,2
+105,Bogotá D.C.,4.711,-74.0721,Tecnológico,15.09,2
+106,Atlántico,10.9685,-74.7813,Vidrio,49.92,4
+107,Nariño,1.2136,-77.2811,Vidrio,98.45,2
+108,Santander,7.1254,-73.1198,Tecnológico,21.16,5
+109,Nariño,1.2136,-77.2811,Papel,45.75,5
+110,Cundinamarca,4.6814,-74.1371,Orgánico,27.87,2
+111,Nariño,1.2136,-77.2811,Vidrio,92.35,6
+112,Santander,7.1254,-73.1198,Plástico,55.54,5
+113,Bogotá D.C.,4.711,-74.0721,Vidrio,58.3,6
+114,Magdalena,10.591,-74.1869,Vidrio,1.82,1
+115,Magdalena,10.591,-74.1869,Vidrio,65.63,2
+116,Bolívar,10.3997,-75.5144,Papel,31.33,4
+117,Valle del Cauca,3.4516,-76.5319,Plástico,51.83,4
+118,Atlántico,10.9685,-74.7813,Vidrio,53.58,5
+119,Nariño,1.2136,-77.2811,Orgánico,59.63,5
+120,Córdoba,8.749,-75.8814,Plástico,82.53,4
+121,Antioquia,6.2442,-75.5812,Tecnológico,30.59,1
+122,Magdalena,10.591,-74.1869,Orgánico,26.36,4
+123,Atlántico,10.9685,-74.7813,Tecnológico,79.79,2
+124,Atlántico,10.9685,-74.7813,Vidrio,72.15,4
+125,Magdalena,10.591,-74.1869,Papel,23.34,3
+126,Cundinamarca,4.6814,-74.1371,Vidrio,1.08,1
+127,Magdalena,10.591,-74.1869,Vidrio,66.93,1
+128,Antioquia,6.2442,-75.5812,Tecnológico,16.56,4
+129,Santander,7.1254,-73.1198,Vidrio,95.74,3
+130,Valle del Cauca,3.4516,-76.5319,Orgánico,60.84,2
+131,Bolívar,10.3997,-75.5144,Papel,85.12,4
+132,Cundinamarca,4.6814,-74.1371,Tecnológico,80.76,2
+133,Santander,7.1254,-73.1198,Plástico,56.22,3
+134,Atlántico,10.9685,-74.7813,Vidrio,44.4,4
+135,Santander,7.1254,-73.1198,Tecnológico,50.18,4
+136,Cundinamarca,4.6814,-74.1371,Vidrio,80.5,2
+137,Cundinamarca,4.6814,-74.1371,Vidrio,64.4,4
+138,Valle del Cauca,3.4516,-76.5319,Tecnológico,21.37,3
+139,Cundinamarca,4.6814,-74.1371,Orgánico,61.33,4
+140,Santander,7.1254,-73.1198,Plástico,41.06,5
+141,Santander,7.1254,-73.1198,Vidrio,7.07,3
+142,Magdalena,10.591,-74.1869,Orgánico,38.75,1
+143,Magdalena,10.591,-74.1869,Vidrio,23.53,2
+144,Córdoba,8.749,-75.8814,Vidrio,84.02,6
+145,Córdoba,8.749,-75.8814,Orgánico,11.39,6
+146,Magdalena,10.591,-74.1869,Vidrio,36.7,3
+147,Nariño,1.2136,-77.2811,Plástico,69.85,6
+148,Magdalena,10.591,-74.1869,Tecnológico,89.84,1
+149,Santander,7.1254,-73.1198,Orgánico,34.2,1
+150,Valle del Cauca,3.4516,-76.5319,Papel,61.04,3
+151,Nariño,1.2136,-77.2811,Vidrio,37.99,1
+152,Bolívar,10.3997,-75.5144,Tecnológico,21.09,1
+153,Santander,7.1254,-73.1198,Plástico,33.25,6
+154,Valle del Cauca,3.4516,-76.5319,Plástico,63.95,5
+155,Cundinamarca,4.6814,-74.1371,Papel,71.92,4
+156,Antioquia,6.2442,-75.5812,Plástico,37.69,6
+157,Cundinamarca,4.6814,-74.1371,Tecnológico,16.1,6
+158,Valle del Cauca,3.4516,-76.5319,Papel,14.82,5
+159,Bolívar,10.3997,-75.5144,Orgánico,81.45,4
+160,Nariño,1.2136,-77.2811,Papel,65.67,1
+161,Bogotá D.C.,4.711,-74.0721,Orgánico,73.08,4
+162,Santander,7.1254,-73.1198,Plástico,49.34,5
+163,Córdoba,8.749,-75.8814,Tecnológico,46.27,2
+164,Córdoba,8.749,-75.8814,Vidrio,21.9,2
+165,Cundinamarca,4.6814,-74.1371,Papel,17.67,4
+166,Atlántico,10.9685,-74.7813,Plástico,16.24,2
+167,Nariño,1.2136,-77.2811,Tecnológico,99.19,3
+168,Antioquia,6.2442,-75.5812,Vidrio,82.27,2
+169,Valle del Cauca,3.4516,-76.5319,Papel,62.99,4
+170,Santander,7.1254,-73.1198,Tecnológico,22.23,1
+171,Antioquia,6.2442,-75.5812,Plástico,34.43,5
+172,Cundinamarca,4.6814,-74.1371,Papel,35.73,2
+173,Antioquia,6.2442,-75.5812,Papel,48.29,4
+174,Cundinamarca,4.6814,-74.1371,Orgánico,42.78,5
+175,Bogotá D.C.,4.711,-74.0721,Orgánico,93.48,3
+176,Córdoba,8.749,-75.8814,Papel,72.36,1
+177,Bolívar,10.3997,-75.5144,Tecnológico,9.06,6
+178,Antioquia,6.2442,-75.5812,Plástico,36.64,5
+179,Bogotá D.C.,4.711,-74.0721,Vidrio,14.16,6
+180,Valle del Cauca,3.4516,-76.5319,Orgánico,28.66,5
+181,Antioquia,6.2442,-75.5812,Plástico,95.93,4
+182,Bolívar,10.3997,-75.5144,Papel,70.82,3
+183,Bogotá D.C.,4.711,-74.0721,Plástico,1.78,2
+184,Bolívar,10.3997,-75.5144,Plástico,33.56,3
+185,Córdoba,8.749,-75.8814,Plástico,44.43,1
+186,Magdalena,10.591,-74.1869,Papel,60.65,6
+187,Magdalena,10.591,-74.1869,Orgánico,50.47,2
+188,Córdoba,8.749,-75.8814,Vidrio,7.91,6
+189,Córdoba,8.749,-75.8814,Tecnológico,52.04,3
+190,Bolívar,10.3997,-75.5144,Orgánico,13.9,1
+191,Valle del Cauca,3.4516,-76.5319,Vidrio,52.4,5
+192,Valle del Cauca,3.4516,-76.5319,Papel,25.36,5
+193,Magdalena,10.591,-74.1869,Vidrio,15.28,6
+194,Nariño,1.2136,-77.2811,Papel,29.5,6
+195,Magdalena,10.591,-74.1869,Vidrio,10.86,5
+196,Antioquia,6.2442,-75.5812,Orgánico,29.11,6
+197,Antioquia,6.2442,-75.5812,Papel,86.83,5
+198,Magdalena,10.591,-74.1869,Plástico,31.41,6
+199,Atlántico,10.9685,-74.7813,Papel,47.55,2
+200,Nariño,1.2136,-77.2811,Papel,52.46,6
