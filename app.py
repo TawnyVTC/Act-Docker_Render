@@ -3,8 +3,7 @@ from streamlit_option_menu import option_menu
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
-import matplotlib.pyplot as plt
-import seaborn as sns
+import plotly.express as px
 
 # Cargar datos
 @st.cache_data
@@ -48,30 +47,30 @@ elif selected == "Diagrama de Barras y Proporción":
     # Agrupar datos por tipo de residuo
     df_grouped = df.groupby("Tipo_Residuo")[variable_numerica].sum().reset_index()
 
-    # Gráfico de barras
-    st.subheader("Diagrama de Barras")
-    fig_bar, ax_bar = plt.subplots(figsize=(10, 5))
-    sns.barplot(data=df_grouped, x="Tipo_Residuo", y=variable_numerica, palette="viridis", ax=ax_bar)
-    ax_bar.set_ylabel(f"Suma de {variable_numerica.replace('_', ' ')}")
-    ax_bar.set_xlabel("Tipo de residuo")
-    ax_bar.set_title(f"Suma de {variable_numerica.replace('_', ' ')} por tipo de residuo")
-    plt.xticks(rotation=45)
-    st.pyplot(fig_bar)
-
-    # Gráfico de torta
-    st.subheader("Distribución proporcional (Gráfico de Torta)")
-    fig_pie, ax_pie = plt.subplots(figsize=(6, 6))
-    ax_pie.pie(
-        df_grouped[variable_numerica],
-        labels=df_grouped["Tipo_Residuo"],
-        autopct="%1.1f%%",
-        startangle=90,
-        colors=sns.color_palette("viridis", len(df_grouped))
+    # Gráfico de barras interactivo
+    st.subheader("Diagrama de Barras Interactivo")
+    fig_bar = px.bar(
+        df_grouped,
+        x="Tipo_Residuo",
+        y=variable_numerica,
+        color="Tipo_Residuo",
+        title=f"Suma de {variable_numerica.replace('_', ' ')} por tipo de residuo",
+        labels={variable_numerica: f"Suma de {variable_numerica.replace('_', ' ')}"},
+        color_discrete_sequence=px.colors.sequential.Viridis
     )
-    ax_pie.axis("equal")  # Mantener el círculo redondo
-    ax_pie.set_title(f"Proporción de {variable_numerica.replace('_', ' ')} por tipo de residuo")
-    st.pyplot(fig_pie)
+    fig_bar.update_layout(xaxis_title="Tipo de residuo", yaxis_title=variable_numerica.replace('_', ' '))
+    st.plotly_chart(fig_bar)
 
+    # Gráfico de torta interactivo
+    st.subheader("Distribución Proporcional Interactiva (Gráfico de Torta)")
+    fig_pie = px.pie(
+        df_grouped,
+        names="Tipo_Residuo",
+        values=variable_numerica,
+        title=f"Proporción de {variable_numerica.replace('_', ' ')} por tipo de residuo",
+        color_discrete_sequence=px.colors.sequential.Viridis
+    )
+    st.plotly_chart(fig_pie)
 
 # Página 3: Histograma
 elif selected == "Histograma":
@@ -92,25 +91,20 @@ elif selected == "Histograma":
     # Filtrar el DataFrame
     df_filtrado = df[df["Tipo_Residuo"] == tipo_residuo]
 
-    # Crear el histograma
-    fig, ax = plt.subplots(figsize=(10, 5))
-
-    sns.histplot(
-        data=df_filtrado, 
-        x=variable_hist, 
-        kde=True,  # Puedes quitar esta línea si no quieres curva de densidad
-        bins=10,
-        color='skyblue',
-        edgecolor='black',
-        ax=ax
+    # Crear el histograma interactivo
+    fig_hist = px.histogram(
+        df_filtrado,
+        x=variable_hist,
+        nbins=10,
+        title=f"Distribución de {variable_hist.replace('_', ' ')} para {tipo_residuo}",
+        color_discrete_sequence=["skyblue"]
     )
-
-    ax.set_title(f"Distribución de {variable_hist.replace('_', ' ')} para {tipo_residuo}")
-    ax.set_xlabel(variable_hist.replace('_', ' '))
-    ax.set_ylabel("Frecuencia")
-
-    st.pyplot(fig)
-
+    fig_hist.update_layout(
+        xaxis_title=variable_hist.replace('_', ' '),
+        yaxis_title="Frecuencia",
+        bargap=0.1
+    )
+    st.plotly_chart(fig_hist)
 
 # Página 4: Mapa
 elif selected == "Mapa":
@@ -123,7 +117,6 @@ elif selected == "Mapa":
 
     # Crear el mapa centrado en Colombia
     m = folium.Map(location=[4.5709, -74.2973], zoom_start=5, tiles="CartoDB positron")
-
 
     for _, row in df_mapa.iterrows():
         folium.Marker(
@@ -138,4 +131,3 @@ elif selected == "Mapa":
         ).add_to(m)
 
     st_folium(m, width=800, height=500)
-

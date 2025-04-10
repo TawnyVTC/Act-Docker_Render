@@ -1,7 +1,6 @@
-streamlit==1.32.0
-pandas
-matplotlib
-folium
+streamlit
+streamlit-option-menu
 streamlit-folium
-seaborn
-streamlit_option_menu
+pandas
+plotly
+folium
