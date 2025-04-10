@@ -97,7 +97,7 @@ elif selected == "Histograma":
         x=variable_hist,
         nbins=10,
         title=f"Distribución de {variable_hist.replace('_', ' ')} para {tipo_residuo}",
-        color_discrete_sequence=["skyblue"]
+        color_discrete_sequence=["blue"]
     )
     fig_hist.update_layout(
         xaxis_title=variable_hist.replace('_', ' '),
